@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>My Local Shop</title>
+
+    <link
+        rel="stylesheet"
+        href="./style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     SHOP HEADER
+===================================================== -->
+
+<header class="shop-header">
+
+    <div class="shop-logo">
+        🏪
+    </div>
+
+    <div>
+
+        <h1>
+            My Local Shop
+        </h1>
+
+        <p>
+            Available Products
+        </p>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     SEARCH + CART
+===================================================== -->
+
+<div class="top-bar">
+
+    <div class="search-box">
+
+        🔍
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search product..."
+            autocomplete="off"
+        >
+
+    </div>
+
+
+    <button
+        type="button"
+        id="cartButton"
+        class="cart-button"
+    >
+
+        🛒 Cart
+
+        <span id="cartCount">
+            0
+        </span>
+
+    </button>
+
+</div>
+
+
+
+<!-- =====================================================
+     PRODUCTS
+===================================================== -->
+
+<main>
+
+    <h2>
+        Products
+    </h2>
+
+
+    <div
+        id="productList"
+        class="product-list"
+    >
+
+        <div class="loading-products">
+            Loading products...
+        </div>
+
+    </div>
+
+</main>
+
+
+
+<!-- =====================================================
+     SHOP LOCATION
+===================================================== -->
+
+<section class="location-section">
+
+    <button
+        id="locationButton"
+        class="location-button"
+        type="button"
+    >
+
+        📍 Get Shop Location
+
+    </button>
+
+</section>
+
+
+
+<!-- =====================================================
+     CART MODAL
+===================================================== -->
+
+<div
+    id="cartModal"
+    class="modal"
+>
+
+    <div class="modal-content">
+
+        <button
+            type="button"
+            id="closeCart"
+            class="close"
+        >
+            ×
+        </button>
+
+
+        <h2>
+            🛒 Your Cart
+        </h2>
+
+
+        <div id="cartItems"></div>
+
+
+        <p id="emptyCart">
+            Cart is empty.
+        </p>
+
+
+        <div id="cartBottom">
+
+            <h3>
+
+                Total:
+
+                <span id="cartTotal">
+                    ₹0
+                </span>
+
+            </h3>
+
+
+            <button
+                type="button"
+                id="orderButton"
+                class="main-button"
+            >
+
+                Order / Send Request
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     CUSTOMER ORDER MODAL
+===================================================== -->
+
+<div
+    id="orderModal"
+    class="modal"
+>
+
+    <div class="modal-content">
+
+        <button
+            type="button"
+            id="closeOrder"
+            class="close"
+        >
+            ×
+        </button>
+
+
+        <h2>
+            Customer Details
+        </h2>
+
+
+        <!-- NAME -->
+
+        <label for="customerName">
+            Name
+        </label>
+
+        <input
+            id="customerName"
+            type="text"
+            placeholder="Your name"
+            autocomplete="name"
+        >
+
+
+        <!-- MOBILE -->
+
+        <label for="customerMobile">
+            Mobile
+        </label>
+
+        <input
+            id="customerMobile"
+            type="tel"
+            inputmode="numeric"
+            maxlength="10"
+            pattern="[0-9]{10}"
+            placeholder="10-digit mobile number"
+        >
+
+
+        <!-- ADDRESS -->
+
+        <label for="customerAddress">
+            Delivery Address
+        </label>
+
+        <textarea
+            id="customerAddress"
+            placeholder="Enter your delivery address"
+            rows="3"
+            autocomplete="street-address"
+        ></textarea>
+
+
+        <!-- ORDER SUMMARY -->
+
+        <h3>
+            Order
+        </h3>
+
+        <div id="orderItems"></div>
+
+
+        <!-- TOTAL -->
+
+        <h3>
+
+            Total:
+
+            <span id="orderTotal">
+                ₹0
+            </span>
+
+        </h3>
+
+
+        <!-- SEND ORDER -->
+
+        <button
+            type="button"
+            id="sendOrder"
+            class="main-button"
+        >
+
+            📧 Send Order
+
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     PRODUCT DETAIL POPUP
+===================================================== -->
+
+<div
+    id="productModal"
+    class="modal"
+>
+
+    <div class="modal-content product-modal-content">
+
+        <button
+            type="button"
+            id="closeProductModal"
+            class="close"
+        >
+            ×
+        </button>
+
+
+        <div id="productModalContent"></div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     CUSTOM ALERT
+===================================================== -->
+
+<div id="customAlert">
+
+    <span id="customAlertMessage"></span>
+
+</div>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script src="./script.js"></script>
+
+
+</body>
+
+</html>
+```
