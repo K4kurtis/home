@@ -16,5 +16,14 @@
     "discount": 30,
     "imageURL": "https://drive.google.com/file/d/1wZ5mrS3KAfSgIlrFqSE_Won2-r7LhBPl/view?usp=drive_link",
     "available": true
+  },
+  {
+    "id": 3,
+    "name": "Firok Kurti With Full Gerha Plazo",
+    "description": "Avilable Sizes M, L, XL, XXL",
+    "price": 1450,
+    "discount": 30,
+    "imageURL": "https://drive.google.com/file/d/1hQHWSPx1crWzQqLZhWpSWyuMBVJFNaCs/view?usp=drivesdk",
+    "available": true
   }
 ]
