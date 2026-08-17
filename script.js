@@ -16,7 +16,7 @@ const SHOP_LATITUDE = "27.842087";
 
 const SHOP_LONGITUDE = "75.264468";
 
-const SHOPKEEPER_EMAIL = "pankajsal880@gmail.com";
+const SHOPKEEPER_EMAIL = "krishan15061998@gmail.com";
 
 const PRODUCTS_JSON = "./products.json";
 
@@ -2174,7 +2174,7 @@ function setupSendOrder() {
 
             const subject =
                 encodeURIComponent(
-                    "New Order - My Local Shop"
+                    "Hello Krishan New Online Order On Shop"
                 );
 
 
