@@ -2381,13 +2381,11 @@ function setupLocation() {
 
 
             const googleMapsURL =
-                "https://www.google.com/maps/dir/?api=1" +
-                "&destination=" +
-                encodeURIComponent(
-                    SHOP_LATITUDE +
-                    "," +
-                    SHOP_LONGITUDE
-                );
+    "https://www.google.com/maps/dir/?api=1" +
+    "&destination=" +
+    encodeURIComponent(
+        "K4kurtis shop, 27.851619,75.270943"
+    );
 
 
             window.location.href =
