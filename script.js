@@ -12,7 +12,7 @@
    CONFIGURATION
 ========================================================= */
 
-const SHOP_LATITUDE = "27.851630";
+const SHOP_LATITUDE = "27.851632";
 
 const SHOP_LONGITUDE = "75.270941";
 
