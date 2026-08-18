@@ -12,9 +12,9 @@
    CONFIGURATION
 ========================================================= */
 
-const SHOP_LATITUDE = "27.8515625";
+const SHOP_LATITUDE = "27.851619";
 
-const SHOP_LONGITUDE = "75.2709613";
+const SHOP_LONGITUDE = "75.270943";
 
 const SHOPKEEPER_EMAIL = "krishan15061998@gmail.com";
 
