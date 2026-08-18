@@ -2380,11 +2380,11 @@ function setupLocation() {
             }
 
 
-            const googleMapsURL =
+           const googleMapsURL =
     "https://www.google.com/maps/dir/?api=1" +
     "&destination=" +
     encodeURIComponent(
-        "K4kurtis shop, 27.851619,75.270943"
+        "K4kurtis shop, Nansa Gate, Nawalgarh, Rajasthan"
     );
 
 
