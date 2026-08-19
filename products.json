@@ -70,5 +70,14 @@
     "discount": 25,
     "imageURL": "https://drive.google.com/file/d/1nTckDvxkqMnszIZaKceA3UQJRn8_bhSZ/view?usp=drivesdk",
     "available": true
+  },
+  {
+    "id": 11,
+    "name": "Coffe Color Kurti",
+    "description": "Pattern: bandhej Print, Type: Straight , Fabric: cotton, Fit: Regular, Color: Coffe , Avilable Sizes XXL",
+    "price": 1500,
+    "discount": 25,
+    "imageURL": "https://drive.google.com/file/d/1qRyNcFb-NyrVigmHdODW20KsWNTFnxYW/view?usp=drivesdk",
+    "available": true
   }
 ]
