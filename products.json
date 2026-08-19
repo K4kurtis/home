@@ -7,5 +7,14 @@
     "discount": 25,
     "imageURL": "https://drive.google.com/file/d/1hQHWSPx1crWzQqLZhWpSWyuMBVJFNaCs/view?usp=drivesdk",
     "available": true
+  },
+  {
+    "id": 4,
+    "name": "Pink Kurti",
+    "description": "Pattern: Leheriya, Type: Straight, Fabric: Riyon, Fit: Regular, Color: Pink, Avilable Sizes M, XL, XXL",
+    "price": 1100,
+    "discount": 35,
+    "imageURL": "https://drive.google.com/file/d/1AMHck7f5gfVdrF9znlsJJS0aLTA86IUY/view?usp=drivesdk",
+    "available": true
   }
 ]
