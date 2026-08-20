@@ -3,7 +3,7 @@
 ========================================================= */
 
 const WORKER_URL =
-    "https://my-demo-shop-api.mohitsaini12943.workers.dev";
+    "https://k4kurtis-worker.mohitsaini12943.workers.dev/";
 
 
 /* =========================================================
