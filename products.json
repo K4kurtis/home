@@ -106,5 +106,14 @@
     "discount": 25,
     "imageURL": "https://drive.google.com/file/d/1VOqW_r-w8hM9-ONdUDKxpw42H3ToU2iA/view?usp=drivesdk",
     "available": true
+  },
+  {
+    "id": 15,
+    "name": "Rust Orenge Kurti",
+    "description": "Pattern: Printed, Type: Straight, Fabric: Vartical, Fit: Regular, Color: Rust Orenge, Avilable Sizes M, L, XL, XXL",
+    "price": 1200,
+    "discount": 25,
+    "imageURL": "https://drive.google.com/file/d/1hrA9NGbFkqCl3S2i4euqVh4IHSqHtDMQ/view?usp=drivesdk",
+    "available": true
   }
 ]
