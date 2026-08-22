@@ -369,8 +369,8 @@ function loadProducts() {
                 );
             }
         }
-
-
+      
+         products.reverse()
         displayProducts(products);
 
     })
