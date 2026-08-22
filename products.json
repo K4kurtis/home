@@ -97,5 +97,14 @@
     "discount": 25,
     "imageURL": "https://drive.google.com/file/d/11PkE8J8xK3FCMcYXtzhZ3eZTupKZQN03/view?usp=drivesdk",
     "available": true
+  },
+  {
+    "id": 14,
+    "name": "Rama Green Colour Kurti",
+    "description": "Pattern: Printed, Type: Straight , Fabric: Heavy Muslin Handwork, Fit: Regular, Color: Rama Green, Avilable Sizes M, XL, XXL",
+    "price": 1500,
+    "discount": 25,
+    "imageURL": "https://drive.google.com/file/d/1VOqW_r-w8hM9-ONdUDKxpw42H3ToU2iA/view?usp=drivesdk",
+    "available": true
   }
 ]
