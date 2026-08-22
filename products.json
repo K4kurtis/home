@@ -88,5 +88,14 @@
     "discount": 25,
     "imageURL": "https://drive.google.com/file/d/1QtTgymCip6kSoKoSfn_i5adBWP2azRn8/view?usp=drivesdk",
     "available": true
+  },
+  {
+    "id": 13,
+    "name": "Grey Kurti",
+    "description": "Pattern: Printed, Type: Straight, Fabric: Vartical State, Fit: Regular, Color: Grey, Avilable Sizes M, L, XL, XXL",
+    "price": 1200,
+    "discount": 25,
+    "imageURL": "https://drive.google.com/file/d/11PkE8J8xK3FCMcYXtzhZ3eZTupKZQN03/view?usp=drivesdk",
+    "available": true
   }
 ]
